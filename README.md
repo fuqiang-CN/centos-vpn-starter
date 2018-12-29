@@ -1,5 +1,18 @@
 # centos-vpn-starter
 
+## Config.json
+
+```json
+{
+    "server":"0.0.0.0",
+    "server_port":8388,
+    "local_port":1080,
+    "password":"yourpassword",
+    "timeout":600,
+    "method":"aes-256-cfb"
+}
+```
+
 ## Install
 
 ```shell
